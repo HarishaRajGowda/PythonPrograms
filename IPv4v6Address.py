@@ -10,9 +10,9 @@ sub = str(ipv4)
 netmask = str(ipv4.netmask)
 num_addresses = str(ipv4.num_addresses)
 
-print('Subnet:'.format(sub))
-print('Subnet mask:'.format(netmask))
-print('No. Of Valid Hosts:'.format(num_addresses))
+print('Subnet:',sub)
+print('Subnet mask:',netmask)
+print('No. Of Valid Hosts:',num_addresses)
 
 ''' IPv6 Host '''
 print('IPv6 Subnet:')
@@ -22,7 +22,7 @@ sub = str(ipv6)
 netmask = str(ipv6.netmask)
 num_addresses = str(ipv6.num_addresses)
 
-print('Subnet:'.format(sub))
-print('Subnet mask:'.format(netmask))
-print('No. Of Valid Hosts:'.format(num_addresses))
+print('Subnet:',sub)
+print('Subnet mask:',netmask)
+print('No. Of Valid Hosts:',num_addresses)
 
