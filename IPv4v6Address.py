@@ -1,6 +1,6 @@
 import ipaddress
-IPv4_Subnet = '192.168.100.0/27'
-IPv6_Subnet = '2001::/125'
+IPv4_Subnet = '172.16.0.0/27'
+IPv6_Subnet = '2002::/126'
 
 ''' IPv4 Loop '''
 print('IP4 hosts:')
