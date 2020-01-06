@@ -4,10 +4,12 @@ IPv6_Subnet = '2002::/126'
 
 ''' IPv4 Loop '''
 print('IP4 hosts:')
-for ipv4 in ipaddress.IPv4Network(IPv4_Subnet).hosts():
-    print(ipv4)
+ipv4 = ipaddress.IPv4Network(IPv4_Subnet)
+
+print('Subnet:'.format(ipv4))
+print('Subnet mask:'.format(ipv4.netmask))
+print('No. Of Valid Hosts:'.format(ipv4.num_addresses))
 
 ''' IPv6 Host '''
 print('IPv6 hosts:')
-for ipv6 in ipaddress.IPv6Network(IPv6_Subnet).hosts():
-    print(ipv6)
+ipv6 = ipaddress.IPv6Network(IPv6_Subnet)
